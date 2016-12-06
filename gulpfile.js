@@ -11,7 +11,7 @@ gulp.task("browser-sync", function () {
         server: {
             baseDir: "./src" // ?????????index.html,??????????????????
         },
-        // 在不同浏览器上镜像点击、滚动，即所有浏览器都会同步
+        // 在所有浏览器上同步点击、滚动
         ghostMode: {clicks: true, scroll: true},
         logPrefix: "learning browser-sync in gulp",
         // browser: ["chrome", "firefox", "iexplore"], // 打开3个浏览器
